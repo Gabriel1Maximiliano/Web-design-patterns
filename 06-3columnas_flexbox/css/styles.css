@@ -21,6 +21,7 @@ img {
 
 h1 {
     font-size: 4rem;
+    text-align: center;
 }
 
 h2 {
@@ -48,3 +49,19 @@ p {
 }
 
 /** CODIGO AQUI **/
+
+@media (min-width: 768px) {
+    .contenedor-flex {
+        display: flex;
+    }
+}
+
+.sidebar {
+    flex-basis: calc(20%-1rem);
+}
+.contenido-principal {
+    flex-basis: calc(60%-1 rem);
+}
+.aside-1{
+    order:-1;
+}
